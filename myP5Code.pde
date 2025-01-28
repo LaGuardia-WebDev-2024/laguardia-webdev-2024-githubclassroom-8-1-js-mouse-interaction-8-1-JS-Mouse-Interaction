@@ -15,14 +15,15 @@ void setup(){
 
   // take a bite out of the tomato!
   fill(255, 255, 255);
-  ellipse(175, 200, 30, 30);
+  ellipse(175, 200, 80, 90);
 }
 
 //🎯Variable Declarations Go Here
 
 
 //🟢Draw Function - Runs on Repeat
-draw = function(){  
+draw = function(){  fill(255, 255, 255);
+  ellipse(mouseX, mouseY, 80, 90);
 
 };
 
