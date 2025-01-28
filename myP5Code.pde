@@ -24,6 +24,9 @@ void setup(){
 //🟢Draw Function - Runs on Repeat
 draw = function(){  
 
+  fill(mouseX, mouseY, 0);
+  ellipse(mouseX, mouseY, 30, 30);
+
 };
 
 //🟡Mouse Pressed Procedue - Runs When Mouse is Pressed on Canvas
